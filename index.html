@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Digitales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Herramientas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Botón para cambiar de modo -->
+    <button id="modoOscuro">🌙 Cambiar Modo</button>
+
+    <!-- Imagen Principal -->
+    <img src="herramientas.jpg" alt="Herramientas Digitales" class="banner">
+
+    <!-- Contenido Principal -->
+    <h1>Herramientas Digitales</h1>
+    <p>Las herramientas digitales nos ayudan a mejorar la productividad y la comunicación.</p>
+
+    <h2>Lista de Herramientas Digitales</h2>
+    <ul>
+        <li><b>Google Drive:</b> Almacenamiento en la nube.</li>
+        <li><b>Canva:</b> Plataforma de diseño gráfico.</li>
+        <li><b>Trello:</b> Gestión de proyectos y tareas.</li>
+    </ul>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca">
+        <h2>Acerca de las Herramientas Digitales</h2>
+        <p>Las herramientas digitales son aplicaciones y plataformas que nos ayudan en la productividad, el diseño, la comunicación y más.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna duda o sugerencia, envíanos un mensaje.</p>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensajeConfirmacion" style="display: none; color: green;">¡Mensaje enviado con éxito!</p>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 Herramientas Digitales. Todos los derechos reservados.</p>
+        <p>Síguenos en:  
+            <a href="#">Facebook</a> |  
+            <a href="#">Twitter</a> |  
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
